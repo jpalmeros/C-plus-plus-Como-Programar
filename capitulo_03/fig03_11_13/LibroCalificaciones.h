@@ -9,7 +9,7 @@ class LibroCalificaciones
 {
 public:
     explicit LibroCalificaciones( std::string ); // Constructor que inicializa a nombreCurso
-    void establecerNombreCurso( std::string );   // establece el nombre del curso
+    void establecerNombreCurso( std::string );   // Establece el nombre del curso
     std::string obtenerNombreCurso() const;      // Obtiene el nombre del curso
     void mostrarMensaje() const;                 // Muestra un mensaje de bienvenida
 private:
